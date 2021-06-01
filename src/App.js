@@ -1,22 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import AlbumFeture from './features/Album';
+/*import logo from './logo.svg';*/
+/*import './App.css';*/
+import TodoFeature from './features/Todo/components';
 
 function App() {
+  /*const name = 'Tuấn';
+  const age = 20;
+  const isMale = false;
+  const student = { name: 'x' };
+  const color = ['red', 'green', 'blue'];*/
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >OK
-        </a>
-      </header>
+
+      <AlbumFeture />
     </div>
   );
 }
