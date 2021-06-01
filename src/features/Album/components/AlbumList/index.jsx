@@ -17,7 +17,7 @@ function AlbumList({ _AlbumList }) {
             <h1>Xin chào</h1>
             {
                 _AlbumList.map(album => (
-                    <div key={album.id}>
+                    <div key={album.id} className="list-of-album">
                         <Album album={album} />
                     </div>
                 ))
